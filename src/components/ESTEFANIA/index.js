@@ -207,66 +207,68 @@ export default function ESTEFANIA() {
       });
     }
     else if(chargeResult === '') {
+      const chargeMyResult = (val) => {
+        window.api.chargeResult(val).then((data) => {
+          const mySources = data.sources;
+          const usedSources = data.inputs.slice(1);
+          const inputsSources = data.inputs.slice(0,1)[0].slice(2);
+          const inputsObjectives = data.inputs.slice(1,2)[0].slice(2);
+          
+          const columns = [
+            {
+              title: 'Fuente',
+              dataIndex: 'source',
+              key: 'source',
+            },
+            {
+              title: 'ppm',
+              dataIndex: 'ppm',
+              key: 'ppm',
+            }
+          ];
+          const dataSource1 = mySources.map((item, index) => {if(item[1]>0) return {key: index, source: item[0], ppm: parseFloat(item[1]*1000).toFixed(2)}}).filter(n => n);
+          const dataSource2 = mySources.map((item) => item[2]).filter(n => n).map((item, index) => <Col key={index} span={6}>{ion[index]}: {item} %</Col>);
+  
+          const dataSource3 = {};
+          inputsSources.forEach((element, index) => {
+            dataSource3[element] = inputsObjectives[index];
+          });
+          form.setFieldsValue(dataSource3);
+  
+          const dataSource4 = [];
+          usedSources.forEach((element, index) => {
+            if(element.slice(1, 2)[0]==='1') dataSource4.push(element.slice(0, 1)[0]);
+          });
+          setSources(dataSource4);
+  
+          modal.success({
+            width: '90%',
+            title: 'Solución optimizada con éxito',
+            content: <>
+                        <Table dataSource={dataSource1} columns={columns} />
+                        <Divider>Error</Divider>
+                        <Row>{dataSource2}</Row>
+                     </>
+          });
+        });
+      }
+
       window.api.readInput().then((data) => {
+        let charge_filename = '';
         const request = modal.success({
           width: '75%',
           title: 'Seleccione un archivo',
           content: <Select
                     style={{ width: '90%' }}
                     placeholder="Selecciona un archivo"
-                    onChange={(val) => setChargeResult(val)}
+                    onChange={(val) => {setChargeResult(val); charge_filename=val;}}
                     options={data.map((item) => {return {title:item, value:item}})}
                     />,
           footer: <div style={{textAlign:'center', margin:'1rem'}}>
-                    <Button type="primary" onClick={() => request.destroy()}>
+                    <Button type="primary" onClick={() => {request.destroy(); chargeMyResult(charge_filename);}}>
                       Aceptar
                     </Button>
                   </div>
-        });
-      });
-    } 
-    else {
-      window.api.chargeResult(chargeResult).then((data) => {
-        const mySources = data.sources;
-        const usedSources = data.inputs.slice(1);
-        const inputsSources = data.inputs.slice(0,1)[0].slice(2);
-        const inputsObjectives = data.inputs.slice(1,2)[0].slice(2);
-        
-        const columns = [
-          {
-            title: 'Fuente',
-            dataIndex: 'source',
-            key: 'source',
-          },
-          {
-            title: 'ppm',
-            dataIndex: 'ppm',
-            key: 'ppm',
-          }
-        ];
-        const dataSource1 = mySources.map((item, index) => {if(item[1]>0) return {key: index, source: item[0], ppm: parseFloat(item[1]*1000).toFixed(2)}}).filter(n => n);
-        const dataSource2 = mySources.map((item) => item[2]).filter(n => n).map((item, index) => <Col key={index} span={6}>{ion[index]}: {item} %</Col>);
-
-        const dataSource3 = {};
-        inputsSources.forEach((element, index) => {
-          dataSource3[element] = inputsObjectives[index];
-        });
-        form.setFieldsValue(dataSource3);
-
-        const dataSource4 = [];
-        usedSources.forEach((element, index) => {
-          if(element.slice(1, 2)[0]==='1') dataSource4.push(element.slice(0, 1)[0]);
-        });
-        setSources(dataSource4);
-
-        modal.success({
-          width: '90%',
-          title: 'Solución optimizada con éxito',
-          content: <>
-                      <Table dataSource={dataSource1} columns={columns} />
-                      <Divider>Error</Divider>
-                      <Row>{dataSource2}</Row>
-                   </>
         });
       });
     }

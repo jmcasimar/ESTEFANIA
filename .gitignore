@@ -6,8 +6,8 @@
 .pnp.js
 
 # src files
-/inputs
-/outputs
+/inputs/*
+/outputs/*
 /build
 /dist
 
