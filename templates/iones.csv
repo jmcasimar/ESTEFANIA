@@ -1,34 +1,34 @@
-Nombre,Proveedor,Ingredientes,HCO3-,NO3-,NH4+,H2PO4-,K+,Ca+2,Mg+2,SO4-2,Fe,Mn,Zn,Cu,B,Mo,Co,Cl-,Na+
-Ácido nítrico,GreenHow,"HNO3, 55% CONC. (d=1.33 g/cm3)",11.6,11.6,,,,,,,,,,,,,,,
-Ácido fosfórico,GreenHow,"H3PO4, 85% CONC. (d=1.685 g/cm3)",14.62,,,14.62,,,,,,,,,,,,,
-Ácido sulfúrico,GreenHow,"H2SO4, 98% CONC. (d=1.84 g/cm3)",36.8,,,,,,,18.4,,,,,,,,,
-Nitrato de amonio (Nitamks),GreenHow,"NH4NO3, pur. 98%, 14.8% N-NO3, 17.20% N-NH4, 2% K2O, 2% S",,10.35504437,12.03424076,,0.4162269031,,,0.6112583814,,,,,,,,,
-Nitrato de potasio más Mg (KERF),GreenHow,"KNO3 + MgO, pur. 99%, 13% N- NO3, 45% K, 0.5% MgO",,9.188459809,,,11.39677667,,0.122815375,,,,,,,,,,
-Nitrato de potasio más S (Nitroksul),GreenHow,"KNO3 + K2SO4, pur. 99%, N 12%, K2O 45%, S 1%",,8.481655208,,,9.460667619,,,0.3087478559,,,,,,,,,
-Nitrato de calcio (Samurai),GreenHow,"5Ca(NO3)2 NH4NO3 10 H2O, 14.4% N-NO3, 1.1% N-NH4, 18.5% Ca",,10.28079419,0.7853384452,,,4.615998802,,,0.01790670606,,,,,,,,
-Nitrato de calcio (bi),GreenHow,"Ca(NO3)2, pur. 99% , 12% N-NO3, 23% CaO, 0.5% MgO",,8.481655208,,,,4.060459294,0.122815375,,,,,,,,,,
-Nitrato de magnesio,GreenHow,"Mg(NO3)2. 6H2O, pur. 98%, 11% N, 9.2% Mg, 15% MgO",,7.696316763,,,,,3.64724447,,,,,,,,,,
-Fosfato monoamónico (Map colossal),GreenHow,"NH4H2PO4, pur. 99%, , N 12%, P2O5 61%, K2O 0%",,,8.481655208,8.508958049,,,,,,,,,,,,,
-Fosfato monopotásico (Mkp colossal),GreenHow,"KH2PO4, pur. 99% , 52% P2O5, 34% K2O",,,,7.253538009,7.148059979,,,,,,,,,,,,
-Sulfato de amonio,GreenHow,"(NH4)2SO4, 20.5% N, 23.4% S",,,14.63585284,,,,,7.297676594,,,,,,,,,
-Sulfato de potasio (Solucros),GreenHow,"K2SO4, 51% K2O, 0.6% Cl, 56% SO4",,,,,11.04275457,,,5.829531993,,,,,,,,0.1692524683,
-Sulfato de calcio,GreenHow,"CaSO4 , pur. 96%, 22% Ca, 18% S",,,,,,5.269724038,,5.389053485,,,,,,,,,
-Sulfato de magnesio (Sulmag),GreenHow,"MgSO4·7H2O, pur. 98.7% , 16.18% MgO, 9.73% Mg, 12.84% S, 0.6% Cl",,,,,,,3.962262185,3.952309372,,,,,,,,0.1670521862,
-Sulfato de fierro,GreenHow,"FeSO4, 20.5% Fe, 36% SO4",,,,,,,,3.747556281,3.670874743,,,,,,,,
-Sulfato de manganeso,GreenHow,"MnSO4.H2O, pur. 96.8%, 32% Mn",,,,,,,,5.632326174,,5.632326174,,,,,,,
-Sulfato de zinc,GreenHow,"ZnSO4, pur. 99%, 34.2% Zn, 17% S, 0.3% Fe",,,,,,,,5.301730859,0.05372011818,,5.228638261,,,,,,
-Sulfato de cobre,GreenHow,"CuSO4, pur. 98%, Cu 25.5%",,,,,,,,3.93258427,,,,3.93258427,,,,,
-Quelato Ca 95%,GreenHow,"Ca EDTA , 9.5% Ca",,,,,,2.370377763,,,,,,,,,,,
-Quelato Fe 6% (microhow),GreenHow,"Fe  EDDHA, 6% Fe",,,,,,,,,1.074402364,,,,,,,,
-Quelato de Mn 13% (microhow),GreenHow,"Mn EDTA, 13% Mn",,,,,,,,,,2.366217692,,,,,,,
-Quelato de Zn 15% (microhow),GreenHow,"Zn EDTA, 15% Zn",,,,,,,,,,,2.293262395,,,,,,
-Quelato Cu 15% (microhow),GreenHow,"Cu EDTA, 15% Cu",,,,,,,,,,,,2.36049476,,,,,
-Quelato full mix,GreenHow,"Full mix , Fe 7.4%, Mn 3.7%, Zn 1.1%, Cu 0.8%, Mo 3.7%",,,,,,,,,1.325096249,0.6734619585,0.1681725756,0.1258930539,,0.3856577027,,,
-Quelato full mix B,GreenHow,"Full mix B, Fe 7.31%, Mn 3.6%, Zn 0.58%, B 0.68%Cu 0.28%, Mo 0.19%",,,,,,,,,1.308980213,0.6552602839,0.08867281261,0.04406256885,0.6290471785,0.01980404419,,,
-Ácido bórico (abo),GreenHow,"H3BO3, pur.99.9%, 17.46% B",,,,,,,,,,,,,16.13406715,,,,
-Solubor,GreenHow,"B, 20.5% B",,,,,,,,,,,,,18.96216816,,,,
-Borato sódico (greenboro),GreenHow,"Na2B8O13.4H2O, 20.5% B",,,,,,,,,,,,,18.96216816,,,,4.784688995
-Molibdato de amonio,GreenHow,"(NH4)6Mo7O24, 54% Mo",,,33.77110694,,,,,,,,,,,5.628517824,,,
-Molibdato de sodio (MOST),GreenHow,"Na2MoO4.2H2O, pur. 99.5%, 39.45% Mo, 0.01% Cl",,,,,,,,,,,,,,4.091385241,,,8.182770482
-Cloruro de potasio,GreenHow,"KCl 62%, pur. 98%",,,,,13.14730346,,,,,,,,,,,13.14730346,
-Cloruro de calcio,GreenHow,"CaCl2, pur. 97.5%, 47% CaO, 60% Cl, 0.5%Mg",,,,,,8.171741201,0.2005760132,,,,,,,,,16.5190409,
+Nombre,Proveedor,Ingredientes,HCO3-,N,P,K,Ca,Mg,SO4-2,Fe,Mn,Zn,Cu,B,Mo,Cl,Na
+Ácido nítrico,GreenHow,"HNO3, 55% CONC. (d=1.33 g/cm3)",11.6,2.619354839,0,0,0,0,0,0,0,0,0,0,0,0,0
+Ácido fosfórico,GreenHow,"H3PO4, 85% CONC. (d=1.685 g/cm3)",14.62,0,4.672371134,0,0,0,0,0,0,0,0,0,0,0,0
+Ácido sulfúrico,GreenHow,"H2SO4, 98% CONC. (d=1.84 g/cm3)",36.8,0,0,0,0,0,18.4,0,0,0,0,0,0,0,0
+Nitrato de amonio (Nitamks),GreenHow,"NH4NO3, pur. 98%, 14.8% N-NO3, 17.20% N-NH4, 2% K2O, 2% S",0,11.69820086,0,0.416226903,0,0,0.611258381,0,0,0,0,0,0,0,0
+Nitrato de potasio más Mg (KERF),GreenHow,"KNO3 + MgO, pur. 99%, 13% N- NO3, 45% K, 0.5% MgO",0,2.074813505,0,11.39677667,0,0.122815375,0,0,0,0,0,0,0,0,0
+Nitrato de potasio más S (Nitroksul),GreenHow,"KNO3 + K2SO4, pur. 99%, N 12%, K2O 45%, S 1%",0,1.915212466,0,9.460667619,0,0,0.308747856,0,0,0,0,0,0,0,0
+Nitrato de calcio (Samurai),GreenHow,"5Ca(NO3)2 NH4NO3 10 H2O, 14.4% N-NO3, 1.1% N-NH4, 18.5% Ca",0,2.932288447,0,0,4.615998802,0,0,0.017906706,0,0,0,0,0,0,0
+Nitrato de calcio (bi),GreenHow,"Ca(NO3)2, pur. 99% , 12% N-NO3, 23% CaO, 0.5% MgO",0,1.915212466,0,0,4.060459294,0.122815375,0,0,0,0,0,0,0,0,0
+Nitrato de magnesio,GreenHow,"Mg(NO3)2. 6H2O, pur. 98%, 11% N, 9.2% Mg, 15% MgO",0,1.737877979,0,0,0,3.64724447,0,0,0,0,0,0,0,0,0
+Fosfato monoamónico (Map colossal),GreenHow,"NH4H2PO4, pur. 99%, , N 12%, P2O5 61%, K2O 0%",0,6.59684294,2.719357727,0,0,0,0,0,0,0,0,0,0,0,0
+Fosfato monopotásico (Mkp colossal),GreenHow,"KH2PO4, pur. 99% , 52% P2O5, 34% K2O",0,0,2.318141013,7.148059979,0,0,0,0,0,0,0,0,0,0,0
+Sulfato de amonio,GreenHow,"(NH4)2SO4, 20.5% N, 23.4% S",0,11.3834411,0,0,0,0,7.297676594,0,0,0,0,0,0,0,0
+Sulfato de potasio (Solucros),GreenHow,"K2SO4, 51% K2O, 0.6% Cl, 56% SO4",0,0,0,11.04275457,0,0,5.829531993,0,0,0,0,0,0,0.169252468,0
+Sulfato de calcio,GreenHow,"CaSO4 , pur. 96%, 22% Ca, 18% S",0,0,0,0,5.269724038,0,5.389053485,0,0,0,0,0,0,0,0
+Sulfato de magnesio (Sulmag),GreenHow,"MgSO4·7H2O, pur. 98.7% , 16.18% MgO, 9.73% Mg, 12.84% S, 0.6% Cl",0,0,0,0,0,3.962262185,3.952309372,0,0,0,0,0,0,0.167052186,0
+Sulfato de fierro,GreenHow,"FeSO4, 20.5% Fe, 36% SO4",0,0,0,0,0,0,3.747556281,3.670874743,0,0,0,0,0,0,0
+Sulfato de manganeso,GreenHow,"MnSO4.H2O, pur. 96.8%, 32% Mn",0,0,0,0,0,0,5.632326174,0,5.632326174,0,0,0,0,0,0
+Sulfato de zinc,GreenHow,"ZnSO4, pur. 99%, 34.2% Zn, 17% S, 0.3% Fe",0,0,0,0,0,0,5.301730859,0.053720118,0,5.228638261,0,0,0,0,0
+Sulfato de cobre,GreenHow,"CuSO4, pur. 98%, Cu 25.5%",0,0,0,0,0,0,3.93258427,0,0,0,3.93258427,0,0,0,0
+Quelato Ca 95%,GreenHow,"Ca EDTA , 9.5% Ca",0,0,0,0,2.370377763,0,0,0,0,0,0,0,0,0,0
+Quelato Fe 6% (microhow),GreenHow,"Fe  EDDHA, 6% Fe",0,0,0,0,0,0,0,1.074402364,0,0,0,0,0,0,0
+Quelato de Mn 13% (microhow),GreenHow,"Mn EDTA, 13% Mn",0,0,0,0,0,0,0,0,2.366217692,0,0,0,0,0,0
+Quelato de Zn 15% (microhow),GreenHow,"Zn EDTA, 15% Zn",0,0,0,0,0,0,0,0,0,2.293262395,0,0,0,0,0
+Quelato Cu 15% (microhow),GreenHow,"Cu EDTA, 15% Cu",0,0,0,0,0,0,0,0,0,0,2.36049476,0,0,0,0
+Quelato full mix,GreenHow,"Full mix , Fe 7.4%, Mn 3.7%, Zn 1.1%, Cu 0.8%, Mo 3.7%",0,0,0,0,0,0,0,1.325096249,0.673461959,0.168172576,0.125893054,0,0.385657703,0,0
+Quelato full mix B,GreenHow,"Full mix B, Fe 7.31%, Mn 3.6%, Zn 0.58%, B 0.68%Cu 0.28%, Mo 0.19%",0,0,0,0,0,0,0,1.308980213,0.655260284,0.088672813,0.044062569,0.629047179,0.019804044,0,0
+Ácido bórico (abo),GreenHow,"H3BO3, pur.99.9%, 17.46% B",0,0,0,0,0,0,0,0,0,0,0,16.13406715,0,0,0
+Solubor,GreenHow,"B, 20.5% B",0,0,0,0,0,0,0,0,0,0,0,18.96216816,0,0,0
+Borato sódico (greenboro),GreenHow,"Na2B8O13.4H2O, 20.5% B",0,0,0,0,0,0,0,0,0,0,0,18.96216816,0,0,4.784688995
+Molibdato de amonio,GreenHow,"(NH4)6Mo7O24, 54% Mo",0,26.26641651,0,0,0,0,0,0,0,0,0,0,5.628517824,0,0
+Molibdato de sodio (MOST),GreenHow,"Na2MoO4.2H2O, pur. 99.5%, 39.45% Mo, 0.01% Cl",0,0,0,0,0,0,0,0,0,0,0,0,4.091385241,0,8.182770482
+Cloruro de potasio,GreenHow,"KCl 62%, pur. 98%",0,0,0,13.14730346,0,0,0,0,0,0,0,0,0,13.14730346,0
+Cloruro de calcio,GreenHow,"CaCl2, pur. 97.5%, 47% CaO, 60% Cl, 0.5%Mg",0,0,0,0,8.171741201,0.200576013,0,0,0,0,0,0,0,16.5190409,0

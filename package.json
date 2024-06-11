@@ -67,7 +67,15 @@
     "productName": "Estefania",
     "copyright": "Copyright © 2023 Ecolistico",
     "files": [
-      "build/**/*"
+      "build/**/*",
+      "!dist/**/*",
+      "!upx-4.0.2-win64/**/*",
+      "!templates/**/*",
+      "!outputs/**/*",
+      "!inputs/**/*",
+      "!ESTEFANIA.ipynb",
+      "!main.py",
+      "!main.spec"
     ],
     "directories": {
       "buildResources": "build"
@@ -79,8 +87,7 @@
         {
           "target": "nsis",
           "arch": [
-            "x64",
-            "ia32"
+            "x64"
           ]
         }
       ]
